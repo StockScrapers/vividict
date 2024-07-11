@@ -17,10 +17,29 @@ This package contains the Vividict class which can be used to create nested dict
 * [More From Us](#Usage)
 
 ## Installation
-You can install this package locally using the following code
+You can install this package locally using the following command in your terminal.
+s
+```bash
+pip install git+https://github.com/StockScrapers/vividict
+```
+
+This should install the latest vividict version to your environment.
 
 ## Usage
-Usage details below...
+Once the package is installed, you can import the Vividict class into your python project as such:
+```python
+from vividict import Vividict
+```
+
+Then you can initialize your vividict object with the below code.
+```python
+vivi = Vividict()
+```
+
+From then on out you can use the 'vivi' variable (or the respectively named variable) to create a nested dictionary.
+```python
+vivi[outerkey][innerkey] = value
+```
 
 ## More From Us
 * Website: https://stockscrapers.com

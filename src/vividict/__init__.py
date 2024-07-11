@@ -1,1 +1,1 @@
-from vividict import Vividict
+from vividict.vividict import Vividict

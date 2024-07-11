@@ -3,52 +3,27 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "spam-eggs"
-version = "2020.0.0"
-dependencies = [
-  "httpx",
-  "gidgethub[httpx]>4.0.0",
-  "django>2.1; os_name != 'nt'",
-  "django>2.0; os_name == 'nt'",
-]
-requires-python = ">=3.8"
+name = "vividict"
+version = "0.1.0"
+dependencies = []
+requires-python = ">=3.12"
 authors = [
-  {name = "Pradyun Gedam", email = "pradyun@example.com"},
-  {name = "Tzu-Ping Chung", email = "tzu-ping@example.com"},
-  {name = "Another person"},
-  {email = "different.person@example.com"},
+  {name = "Charbel Marche", email = "charbelmarche33@gmail.com"},
 ]
 maintainers = [
-  {name = "Brett Cannon", email = "brett@example.com"}
+  {name = "Charbel Marche", email = "charbelmarche33@gmail.com"}
 ]
-description = "Lovely Spam! Wonderful Spam!"
-readme = "README.rst"
-license = {file = "LICENSE.txt"}
-keywords = ["egg", "bacon", "sausage", "tomatoes", "Lobster Thermidor"]
+description = "Package containing the Vividict class. Allows for nested dictionaries."
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["nested dictionary", "vividict"]
 classifiers = [
   "Development Status :: 4 - Beta",
   "Programming Language :: Python"
 ]
 
-[project.optional-dependencies]
-gui = ["PyQt5"]
-cli = [
-  "rich",
-  "click",
-]
-
 [project.urls]
-Homepage = "https://example.com"
-Documentation = "https://readthedocs.org"
-Repository = "https://github.com/me/spam.git"
-"Bug Tracker" = "https://github.com/me/spam/issues"
+Homepage = "https://stockscrapers.com"
+Repository = "https://github.com/StockScrapers/vividict"
+"Bug Tracker" = "https://github.com/StockScrapers/vividict/issues"
 Changelog = "https://github.com/me/spam/blob/master/CHANGELOG.md"
-
-[project.scripts]
-spam-cli = "spam:main_cli"
-
-[project.gui-scripts]
-spam-gui = "spam:main_gui"
-
-[project.entry-points."spam.magical"]
-tomatoes = "spam:main_tomatoes"

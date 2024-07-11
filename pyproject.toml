@@ -29,4 +29,4 @@ packages = ["src/vividict"]
 Homepage = "https://stockscrapers.com"
 Repository = "https://github.com/StockScrapers/vividict"
 "Bug Tracker" = "https://github.com/StockScrapers/vividict/issues"
-Changelog = "https://github.com/me/spam/blob/master/CHANGELOG.md"
+Changelog = "https://github.com/me/vividict/blob/master/CHANGELOG.md"

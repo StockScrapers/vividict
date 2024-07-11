@@ -9,18 +9,18 @@ This package contains the Vividict class which can be used to create nested dict
 * Language: Python
 * Comment:  This package contains a simple vividict class that is adapted from various stackoverflow answers.
             It enables the creation of nested dictionaries, which is necessary across many stockscrapers projects.  
-* URL:      https://github.com/charbelmarche33/DS5100-finalproject-qdy4zt
+* URL:      https://github.com/StockScrapers/vividict
 ---
 ## Table of Contents
 * [Installation](#installation)
-* [Usage](#Usage)
-* [More From Us](#Usage)
+* [Usage](#usage)
+* [More From Us](#more-from-us)
 
 ## Installation
 You can install this package locally using the following command in your terminal.
 s
 ```bash
-pip install git+https://github.com/StockScrapers/vividict
+pip install vividict
 ```
 
 This should install the latest vividict version to your environment.
@@ -44,3 +44,4 @@ vivi[outerkey][innerkey] = value
 ## More From Us
 * Website: https://stockscrapers.com
 * Financial Statement API: https://rapidapi.com/charbelmarche33-m9pHgx2tG/api/stock-financial-statement-retriever-from-sec
+* On PyPi: https://pypi.org/user/charbelmarche33/

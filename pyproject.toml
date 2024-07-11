@@ -21,6 +21,9 @@ classifiers = [
   "Development Status :: 4 - Beta",
   "Programming Language :: Python"
 ]
+packages = [
+    { include = "vividict", from = "vividict" },
+]
 
 [project.urls]
 Homepage = "https://stockscrapers.com"
